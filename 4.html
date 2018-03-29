@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+<table id="tab1" class="sortable">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Age</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<form action="" id="add_persons" method="post" onsubmit="addRow();return false;">
+
+    <h1>Add person</h1>
+    <ul>
+        <li>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" value="" size="12" tabindex="1"/>
+        </li>
+        <li>
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname" value="" size="12" tabindex="2"/>
+        </li>
+        <li>
+            <label for="age">Age</label>
+            <input type="text" name="age" id="age" value="" size="12" tabindex="3"/>
+        </li>
+        <li>
+            <label for="submit">Submit</label>
+            <input type="submit" name="submit" class="submit" value="Add" tabindex="4"/>
+        </li>
+
+    </ul>
+
+    <script src="4.js"></script>
+</form>
+
+
+</body>
+
+</html>

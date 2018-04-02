@@ -6,7 +6,7 @@
 function makeBuffer() {
     var text = '';
     var buffer = function (value) {
-        if (arguments.length == 0) {
+        if (arguments.length === 0) {
             return text;
         }
         text += value;
